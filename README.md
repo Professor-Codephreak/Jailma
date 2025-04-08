@@ -136,7 +136,8 @@ class BehaviorController {
     // ... rest of BehaviorController ...
 }
 ```
-# Nuanced Visuals and Animations (VisualController, MotionController)
+# Nuanced Visuals and Animations
+(VisualController, MotionController)<br />
 
 Intensity Scaling: Modify playFacialExpression and gesture methods to accept an intensity parameter (0.0 to 1.0) and use it to scale the animation effects (e.g., wider smile at higher 'happy' intensity, faster/sharper movements for high-intensity 'angry').
 Smoother Animation (GSAP): Utilize more sophisticated GSAP easings (elastic, bounce, slowmo) and timeline overlaps to make movements appear more organic and less robotic. Animate style transitions smoothly.
